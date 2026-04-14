@@ -1,0 +1,10 @@
+name: "First workflow"
+on: [push]
+jobs:
+  helloworld:
+    runs-on: [self-hosted]
+    steps:
+      - name: "Hello world action step"
+        run: echo "Hello world!"
+      - name: "Ok Bye! exit"
+        run: exit 1
