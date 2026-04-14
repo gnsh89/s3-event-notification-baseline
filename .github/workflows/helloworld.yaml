@@ -5,6 +5,6 @@ jobs:
     runs-on: [self-hosted]
     steps:
       - name: "Hello world action step"
-        run: echo "Hello world!"
+        run: echo "Hello world! First runner workflow"
       - name: "Ok Bye! exit"
         run: exit 1
