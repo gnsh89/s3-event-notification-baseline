@@ -7,4 +7,4 @@ jobs:
       - name: "Hello world action step"
         run: echo "Hello world! First runner workflow"
       - name: "Ok Bye! exit"
-        run: exit 1
+        run: exit 0
